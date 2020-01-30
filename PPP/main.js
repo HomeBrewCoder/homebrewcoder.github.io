@@ -8,59 +8,59 @@ function getRandomChar(){
   var rand = getRandomInt(28);
   var randomChar;
   if(rand === 1){
-    randomChar = "a";
+    randomChar = "A";
   } else if(rand === 2){
-    randomChar = "b";
+    randomChar = "B";
   } else if(rand === 3){
-    randomChar = "c";
+    randomChar = "C";
   } else if(rand === 4){
-    randomChar = "d";
+    randomChar = "D";
   } else if(rand === 5){
-    randomChar = "e";
+    randomChar = "E";
   } else if(rand === 6){
-    randomChar = "f";
+    randomChar = "F";
   } else if(rand === 7){
-    randomChar = "g";
+    randomChar = "G";
   } else if(rand === 8){
-    randomChar = "h";
+    randomChar = "H";
   } else if(rand === 9){
-    randomChar = "i";
+    randomChar = "I";
   } else if(rand === 10){
-    randomChar = "j";
+    randomChar = "J";
   } else if(rand === 11){
-    randomChar = "k";
+    randomChar = "K";
   } else if(rand === 12){
-    randomChar = "l";
+    randomChar = "L";
   } else if(rand === 14){
-    randomChar = "m";
+    randomChar = "M";
   } else if(rand === 15){
-    randomChar = "n";
+    randomChar = "N";
   } else if(rand === 16){
-    randomChar = "o";
+    randomChar = "O";
   } else if(rand === 17){
-    randomChar = "p";
+    randomChar = "P";
   } else if(rand === 18){
-    randomChar = "q";
+    randomChar = "Q";
   } else if(rand === 19){
-    randomChar = "r";
+    randomChar = "R";
   } else if(rand === 20){
-    randomChar = "s";
+    randomChar = "S";
   } else if(rand === 21){
-    randomChar = "t";
+    randomChar = "T";
   } else if(rand === 22){
-    randomChar = "s";
+    randomChar = "S";
   }else if(rand === 23){
-    randomChar = "u";
+    randomChar = "U";
   } else if(rand === 24){
-    randomChar = "v";
+    randomChar = "V";
   } else if(rand === 25){
-    randomChar = "w";
+    randomChar = "W";
   } else if(rand === 26){
-    randomChar = "x";
+    randomChar = "X";
   } else if(rand === 27){
-    randomChar = "y";
+    randomChar = "Y";
   } else if(rand === 28){
-    randomChar = "s";
+    randomChar = "Z";
   } else {
    randomChar = "m"
   }
