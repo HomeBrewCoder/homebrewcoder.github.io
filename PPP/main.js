@@ -71,5 +71,5 @@ function getRandomChar(){
 
 function getRandomQuestion(){
   var questions = ["Waar kun je in wonen?", "Een feestdag", "Een muziekinstrument", "Iets van hout", "Wat kun je drinken?", "Een Computerspel/Programma", "Wat doe je op brood?", "Een huisdier", "Een Land in Afrika", "Een zee of oceaan", "Een naam van een pretpark", "Een insect", "Een fruitsoort", "een stad in de Verenigde Staten", "Een Rivier", "Wat kun je schoonmaken?", "een automerk", "Een televiesieprogramma"];
-  return questions["getRandomInt(questions.length)"];
+  return questions[getRandomInt(questions.length)];
 }
