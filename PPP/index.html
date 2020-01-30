@@ -4,15 +4,15 @@
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
     <script>
-      window.addEventListener('load', function () {
-            document.getElementById("Letter").innerHTML = getRandomChar();
-            document.getElementById("Question").innerHTML = getRandomQuestion();
-    })
-
+      function generate(){
+      document.getElementById("Letter").innerHTML = getRandomChar();
+      document.getElementById("Question").innerHTML = getRandomQuestion();
+      }
     </script>
   </head>
   <body>
     <h1 id="Letter"></h1>
     <p id="Question"></p>
+    <button onclick="generate()">Bedenk een vraag!</button>
   </body>
 </html>
